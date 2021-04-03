@@ -1,0 +1,22 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio fully responsive",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prafful0026/my-portfolio.git"
+  },
+  "author": "prafful agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prafful0026/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/prafful0026/my-portfolio#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
