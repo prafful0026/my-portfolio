@@ -1,5 +1,11 @@
 @include mediaXl{
+//   #{
+//      display: flex;
+//      align-items: center;
+//      margin: auto;
+//      width: 1500px;
 
+//   }
 }
 
 @include mediaLg{
@@ -42,9 +48,18 @@
             border: solid 1.5px $secondary-color;
         }
     }
-   
+  .about-info{
+      grid-template-areas: 
+      'bioimage'
+      'bio'
+      'job1'
+      'job2'
+      'job3' ;
+      grid-template-columns: 1fr;
+  } 
    
 }
+
 
 @include mediaSm{
     main#home h1{
